@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form </title>
+</head>
+
+<body>
+    <h1>Student Admission Form </h1>
+    <form>
+        <label> Full Name </label>
+        <input type="text" required minlength="5">
+        <br><br>
+        <label> password </label>
+        <input type="password">
+        <br><br>
+        <label for="">email</label>
+        <input type="email" required>
+
+        <label> Gender</label>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female
+        <br><br>
+        <label> Date of Birth </label>
+        <input type="date">
+        <br><br>
+        <label>state</label>
+        <select>
+            <option> UP </option>
+            <option> Delhi </option>
+            <option> MP </option>
+            <option> Assam </option>
+            <option> Bihar </option>
+            <option> Chennai </option>
+            <option> Tamilnadu</option>
+        </select>
+        <br><br>
+        <label>
+            Intermediate
+        </label>
+        <input type="text" list="Board">
+        <datalist id="Board">
+            <option>CBSE Board </option>
+            <option>ISC Board </option>
+            <option> UP Board </option>
+            <option> Bihar Board </option>
+        </datalist>
+        <br><br>
+        <label for="">
+            upload passport size photo
+        </label>
+        <input type="file" >
+        <br><br>
+        <input type="checkbox" required>
+        <label for=""> I Acept Terms & Conditions </label>
+    
+
+
+
+        <br><br>
+        <details>
+            <summary>Terms & Conditios</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt ratione, dicta harum odio quis
+                animi quo, exercitationem corrupti minima ab quod quaerat natus delectus. Obcaecati voluptatum, debitis
+                recusandae repellendus deserunt nulla perspiciatis voluptates eaque ipsum sapiente architecto similique,
+                possimus beatae error eveniet distinctio voluptatem? Laboriosam, modi. Commodi, veniam doloremque?</p>
+        </details>
+        <br><br>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada:regular,700" rel="stylesheet" />
+    <style>
+        .mycard {
+            border: 3px solid  red;
+            width: 25%;
+            padding: 30px;
+            box-sizing: border-box;
+            border-radius: 10px;
+          /*  box-shadow: 10px 10px 25px 5px rgb(74, 18, 18);*/
+            background-color: white;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+         /*   background-color:red; */
+        /* background-image:linear-gradient(60deg ,yellow,red)*/
+        background-image: linear-gradient(0deg ,#7fffd4c1 ,#b73ab754), url('https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg');
+        background-repeat: no-repeat;  
+        background-size:cover ;  
+        
+        }
+        .myinput
+        {
+            width:overflow: ;
+            padding:10px;
+            box-sizing::content;
+            border-radius: 5px;
+            border-bottom:shadow;
+            border: 1px solid black;
+            background-attachment: fixed;
+        }
+        .my-btn{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: crimson;
+            color: black;
+            border: none;
+            font-weight: bold;
+            margin-top: 30px;
+            cursor:pointer;
+        }
+        .my-btn:hover{
+            background-color: gray;
+        }
+        .my-btn:focus{
+            outline: 3px solid black;
+        }
+        .form-title{
+            font-family: Montserrat;
+            font-display:inherit;
+        }
+        .logo{
+            width: 100px;
+            margin:auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class ="mycard">
+       <img class="logo" src="https://w7.pngwing.com/pngs/467/973/png-transparent-logo-emblem-brand-ironman-mask-emblem-logo-area.png">
+        <h3 class ="form-title">LOGIN</h3>
+        <form>
+            <label for ="email"> EMAIL address</label> 
+            <input type  ="email" class ="input">
+            <br><br>
+
+            <label for ="password">PASSWORD</label>
+            <input type  ="password" class ="input">
+            <br><br>
+            <button type ="button" class ="my-btn">submit</button>
+        </form>
+    
+    </div>
+</body>
+</html>
