@@ -1,0 +1,18 @@
+
+body{
+    content:normal;
+   background-color:rgb(155, 242, 242)
+   /* background-image: linear-gradient(60deg ,#7fffd4c1 ,#b73ab754), url('https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1657710430448_mainnews2012_x1.jpg');
+    background-repeat: no-repeat;
+    background-size::content;
+    background-position: 200px;
+    background-attachment: fixed;
+    backface-visibility: 75%;*/
+
+}
+
+.imageIcon {
+    width: 20px;
+    height: 15px;
+    place-content:inherit;
+}
